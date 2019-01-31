@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
  </head>   
     <title>鍾儀勳的個人網站</title>
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
     <style>
        body{
            background-color:#FFFF00;
@@ -28,6 +29,12 @@
         h1{
             font-family: "Courgette",cursive;
            text-align: center;    
+        } 
+
+        #detail{
+            width: 80px;
+            margin-left: auto; 
+            margin-right: auto;
         }
             
         #designer {
@@ -45,18 +52,45 @@
         h2{
            background-clip: white;
            height: 0.5px;
-           width: 30%;
+           width:30%;
+        }  
+                 
+        td,th{
+            border: solid 1px black;
+            padding: 20px
+        }    
+   
+        li{
+          border: solid 1px black;
+          padding-top:5px
+          padding-bottom:5px;
+          padding-left:5px; 
         }
 
+        h1{
+            
+            margin: 10px;
+            margin-bottom:10px; 
+        }
+
+        #intro{
+            margin-left: auto; 
+            margin-right:auto; 
+        }
         
+        a{
+            text-decoration: none; 
+        }
+      
+
     </style>
 
 
 
 
 <body>
-<h1>鍾儀勳 Personal Website</h1>
-<table>
+<h1><i class="fas fa-baseball-ball"></i>鍾儀勳 Personal Website</h1>
+<table id="intro">
     <tr>
         <td>
             <img src="img/photo.jpg">
@@ -71,49 +105,62 @@
 
 
 
+<hr>
 
-<h3>專長</h3>
+
+<div>
+    <div class="col-lg-3">1</div>
+    <h3>專長</h3>
 <ol type="a">
-	<li>打棒球</li>
+    <li>打棒球</li>
     <li>畫畫</li>
     <li>寫作文</li>
 </ol>
-<h3>興趣</h3>
+    <div class="col-lg-3">2</div>
+    <h3>興趣</h3>
 <ul type="1">
-	<li>><a href="https://www.youtube.com/watch?v=P9Gzl9a6Ur8">打棒球</a></li>
+    <li>><a href="https://www.youtube.com/watch?v=P9Gzl9a6Ur8">打棒球</a></li>
     <li><a href=""                                          打電動</li>
     <li>看棒球比賽</li>
 </ul>
-<h3>學習經驗</h3>
+    <div class="col-lg-3">3</div>
+    <h3>學習經驗</h3>
 <table>
      <tr>
-     	 <th>時間</th>
+         <th>時間</th>
          <th>地點</th>
-     </tr>	
+     </tr>  
      <tr>
-     	<td>2014-2020</td>
+        <td>2014-2020</td>
         <td>桃園市大勇國名小學</td>
      </tr>
 </table>
-<h3>能力</h3>
+    <div class="col-lg-3">4</div>
+    <h3>能力</h3>
 <table>
-	<tr>
-		<td>名稱</td>
-        <td>熟練度</td>
-	</tr>
     <tr>
-    	<td>javascript</td>
+        <td>名稱</td>
+        <td>熟練度</td>
+    </tr>
+    <tr>
+        <td>javascript</td>
         <td>😀😀😀😀</td>
     </tr>
     <tr>
-    	<td>Scratch</td>
+        <td>Scratch</td>
         <td>👍👍👍👍👍👍</td>
     </tr>
     <tr>
-    	<td>English</td>
+        <td>English</td>
         <td>😍😍😍😍😍😍😍</td>
     </tr>
 </table>
+</div>
+
+
+
+
+
 
 <div class="contact">
 <h3><a href="contact.html">聯絡資訊</a></h3>
